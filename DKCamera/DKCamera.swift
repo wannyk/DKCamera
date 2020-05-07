@@ -283,6 +283,7 @@ open class DKCamera: UIViewController, AVCaptureMetadataOutputObjectsDelegate {
     }()
     open var cameraSwitchButton: UIButton!
     open var captureButton: UIButton!
+    open var cancelButton: UIButton!
     
     let cameraResource: DKCameraResource
     
