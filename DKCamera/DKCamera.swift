@@ -533,6 +533,7 @@ open class DKCamera: UIViewController, AVCaptureMetadataOutputObjectsDelegate {
         cancelButton.frame.origin = CGPoint(x: contentView.bounds.width - cancelButton.bounds.width - 15, y: 25)
         cancelButton.autoresizingMask = [.flexibleBottomMargin, .flexibleLeftMargin]
         contentView.addSubview(cancelButton)
+        self.cancelButton = cancelButton
         
         self.flashButton.frame.origin = CGPoint(x: 5, y: 15)
         contentView.addSubview(self.flashButton)
